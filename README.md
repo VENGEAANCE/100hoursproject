@@ -1,5 +1,6 @@
 # OpenAI-img-Generator
 
+Direct link to project -> 
 
 Welcome to OpenAi Image Generator app that uses the OpenAI Dall-E 2 API to generate images based on text input! This app allows you to enter a prompt and generate an image based on that prompt. Here's how to use it:
 
@@ -23,5 +24,4 @@ If you encounter any issues while using the app, check the following:
 Make sure that you have set the OPENAI_API_KEY environment variable correctly.
 Make sure that you have an active internet connection.
 If you see an error message, try checking the browser's console for more information about the issue.
-# Conclusion
-We hope you enjoy using our app to generate images based on text prompts! If you have any questions or feedback, please don't hesitate to contact us.
+
