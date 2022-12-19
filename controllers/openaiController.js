@@ -35,11 +35,12 @@ const generateImage = async (req, res) => {
         } else {
             console.log(error.message);
         }
+        res.status(400).json({
+            success: false,
+            error: 'The image could not be generated'
+        });
     }
-    res.status(400).json({
-        success: false,
-        error: 'The image could not be generated'
-    });
+
 }
 
 module.exports = { generateImage };
