@@ -21,7 +21,7 @@ To use the app, simply enter a prompt in the text field and select a size for th
 # Troubleshooting
 If you encounter any issues while using the app, check the following:
 
-Make sure that you have set the OPENAI_API_KEY environment variable correctly.
-Make sure that you have an active internet connection.
-If you see an error message, try checking the browser's console for more information about the issue.
+-Make sure that you have set the OPENAI_API_KEY environment variable correctly.
+-Make sure that you have an active internet connection.
+-If you see an error message, try checking the browser's console for more information about the issue.
 
