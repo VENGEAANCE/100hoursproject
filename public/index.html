@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/spinner.css" />
+    <link rel="stylesheet" href="css/ripple.css">
 
     <script src="js/main.js" defer></script>
     <title>OpenAI Image Genrator</title>
@@ -14,14 +15,13 @@
     <header>
       <div class="navbar">
         <div class="logo">
-          <h2>OpenAI Image Genrator</h2>
+          <h2><a href="/">OpenAI Image Generator</a></h2>
         </div>
         <div class="nav-links">
           <ul>
             <li>
               <a href="https://beta.openai.com/docs" target="_blank"
-                >OpenAI API Docs</a
-              >
+                >OpenAI API Docs</a>
             </li>
           </ul>
         </div>
@@ -53,8 +53,18 @@
           <img src="" alt="" id="image" />
         </div>
       </section>
+
+      <!-- loading ripple -->
+      <div class="ripples" id="generate-button">
+        <div class="ripples__dot">
+      </div>
+    
+    
     </main>
 
-    <div class="spinner"></div>
+  
+
+
+
   </body>
 </html>

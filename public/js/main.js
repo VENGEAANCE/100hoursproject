@@ -1,3 +1,17 @@
+document.querySelector('#image-form').addEventListener('submit', onSubmit);
+
+
+function showSpinner() {
+    document.querySelector('#generate-button').style.display = 'block'; // added this to show the element
+}
+
+function removeSpinner() {
+    document.querySelector('#generate-button').style.display = 'none'; // added this disable element
+}
+
+//remoe spinner on pageload
+removeSpinner();
+
 function onSubmit(e) {
     e.preventDefault();
 
@@ -13,7 +27,10 @@ function onSubmit(e) {
     }
 
     generateImageRequest(prompt, size);
+
+    showSpinner();
 }
+
 
 async function generateImageRequest(prompt, size) {
     try {
@@ -37,7 +54,7 @@ async function generateImageRequest(prompt, size) {
         }
 
         const data = await response.json();
-        // console.log(data);
+        console.log(data);
 
         const imageUrl = data.data;
 
@@ -49,12 +66,4 @@ async function generateImageRequest(prompt, size) {
     }
 }
 
-function showSpinner() {
-    document.querySelector('.spinner').classList.add('show');
-}
 
-function removeSpinner() {
-    document.querySelector('.spinner').classList.remove('show');
-}
-
-document.querySelector('#image-form').addEventListener('submit', onSubmit);

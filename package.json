@@ -1,7 +1,7 @@
 {
   "name": "ai-image-gen",
   "version": "1.0.0",
-  "description": "",
+  "description": "Direct link to project -> https://aipersonalproject-com.onrender.com",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VENGEAANCE/100hoursproject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VENGEAANCE/100hoursproject/issues"
+  },
+  "homepage": "https://github.com/VENGEAANCE/100hoursproject#readme"
 }
