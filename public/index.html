@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/spinner.css" />
+    <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/ripple.css">
 
     <script src="js/main.js" defer></script>
@@ -29,30 +29,18 @@
     </header>
 
     <main>
-      <section class="showcase">
-        <form id="image-form">
-          <h1>Describe An Image</h1>
-          <div class="form-control">
-            <input type="text" id="prompt" placeholder="Enter Text" />
-          </div>
-          <!-- size -->
-          <div class="form-control">
-            <select name="size" id="size">
-              <option value="small">Small</option>
-              <option value="medium" selected>Medium</option>
-              <option value="large">Large</option>
-            </select>
-          </div>
-          <button type="submit" class="btn">Generate</button>
-        </form>
-      </section>
 
-      <section class="image">
-        <div class="image-container">
-          <h2 class="msg"></h2>
-          <img src="" alt="" id="image" />
-        </div>
-      </section>
+
+
+      <div class="contact-us">
+  <form>
+    <input placeholder="Name" type="text" required="">
+    <input placeholder="Email" type="email" name="customerEmail">
+    <input placeholder="Phone" type="tel" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    <button type="button">SIGN UP</button>
+  </form>
+</div>
+
 
       <!-- loading ripple -->
       <div class="ripples" id="generate-button">
