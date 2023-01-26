@@ -30,4 +30,5 @@ If you encounter any issues while using the app, check the following:
 -  If you see an error message, try checking the browser's console for more information about the issue.
 
 # Optimizations
-Changing front end using React.
+- Changed files structure using MVC arhitecture.
+- Updating front end with React.
