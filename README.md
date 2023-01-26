@@ -29,3 +29,5 @@ If you encounter any issues while using the app, check the following:
 -  Make sure that you have an active internet connection.
 -  If you see an error message, try checking the browser's console for more information about the issue.
 
+# Optimizations
+React for front end to make better use of state.
